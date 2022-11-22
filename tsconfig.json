@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "strict": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": false,
+        "isolatedModules": true,
+        "experimentalDecorators": false,
+        "keyofStringsOnly": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true
+    },
+    "$schema": "https://json.schemastore.org/tsconfig"
+}
