@@ -22,7 +22,7 @@ importers:
       '@types/react-dom': ^18.0.6
       core-js: ^3.25.0
       eslint: ^8.23.0
-      qiankun: ^2.7.5
+      qiankun: 2.4.2
       react: ^18.2.0
       react-dom: ^18.2.0
       react-router-dom: ^6.3.0
@@ -31,7 +31,7 @@ importers:
       webpack: ^5.74.0
     dependencies:
       core-js: 3.25.0
-      qiankun: 2.7.5
+      qiankun: 2.4.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-router-dom: 6.3.0_react-dom@18.2.0+react@18.2.0
@@ -6408,7 +6408,7 @@ packages:
   /import-html-entry/1.12.0:
     resolution: {integrity: sha512-wloMEMwupKJ8DWvKsEzJTXhHVieEH8ylu9ebeQg7T9JUsPTo0Zwa1EkuSKgKJvOiA2MxAFkeYYvd/E2pKiFtWQ==}
     dependencies:
-      '@babel/runtime': 7.18.9
+      '@babel/runtime': 7.20.1
     dev: false
 
   /import-lazy/4.0.0:
@@ -9094,10 +9094,10 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /qiankun/2.7.5:
-    resolution: {integrity: sha512-rJgvXTVUAl823likA4HxwOndbpQfMDkliJ0dIqsQY9uLrQupjQgTUgZyMg4VSN+f034aU6G7HmA8lpx1reS6Hg==}
+  /qiankun/2.4.2:
+    resolution: {integrity: sha512-TWkeybGnuqEcyc2abMkfO6IOrsDuO16/ojVaQ/uDper1/uMyxn+aYl/cJkgw/JGJBLM+zFZtcwrB2Yz0PaRqOg==}
     dependencies:
-      '@babel/runtime': 7.18.9
+      '@babel/runtime': 7.20.1
       import-html-entry: 1.12.0
       lodash: 4.17.21
       single-spa: 5.9.4

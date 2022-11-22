@@ -22,3 +22,11 @@ pnpm start
 ```
 
 然后进入子应用，查看重现
+
+点击打开弹窗，可以看到 body 下增加了 `overflow: hidden` 的样式。
+
+点击查看样式的来源，可以看到形如 `<style data-rc-order="append" rc-util-key="rc-util-locker-xxx">` 的样式标签。
+
+再关闭弹框，可以看到该标签（有/没有）消失。
+
+在内部平台，标签没有消失，导致 body scroll 被锁住了。
